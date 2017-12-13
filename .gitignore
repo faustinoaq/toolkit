@@ -1,0 +1,13 @@
+bin
+dat
+*ok
+*bin
+*ips
+*tmp
+*conf
+*fail
+*error
+*header
+.directory
+example.sh
+research.tex
