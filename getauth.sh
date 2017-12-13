@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Search for android devices
-PATTERN="android[\S]+"
+# PATTERN="android-[a-z0-9]+"
 
 # Search for iPhone devices
-PATTERN="iPhone[\S]+"
+# PATTERN="iPhone[-A-Za-z0-9]+"
 
 # Search for PC devices
-PATTERN="(PC|DESKTOP)[\S]+"
+PATTERN="[-A-Za-z0-9]+(DESKTOP|PC)[-A-Za-z0-9]+"
 
 function gethelp {
   printf "\nGet Auth script by @faustinoaq\n\n"
